@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxone{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.1px);
+-webkit-backdrop-filter: blur(9.1px);
+border: 1px solid rgba(255, 255, 255, 0.38);
+}
+form{
+   
+    height: 300px;
+    width: 240px;
+    position: relative;
+  
+    
+    
+}
+
+.pass{
+    position: absolute;
+    top: 100px;
+}
+
+input{
+    height: 40px;
+    width: 240px;
+    border-radius: 2px;
+    border: none;
+}
+
+#pswrd{
+    margin-top: 60px;
+}
+
+.submit{
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.submit a{
+    text-decoration: none;
+}
+
+.fpas{
+    position: absolute;
+    left: 120px;
+    top: 180px;
+    text-decoration: none;
+}
